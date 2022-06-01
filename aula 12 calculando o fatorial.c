@@ -6,7 +6,9 @@ int main ()
     int resposta = 1;
 
     for ( ; fatorial >= 1; --fatorial){
-    resposta *= fatorial;
+
+    resposta = fatorial;
+
     }
     printf ("O numero fatorial e' %i", resposta);
 
